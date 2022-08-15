@@ -28,7 +28,8 @@
 
     "require": {
         "php": ">=7.0",
-        "pragmarx/coollection": ">=0.8",
+        "pragmarx/coollection": "dev-update-ia-collection",
+        "pragmarx/ia-collection": "dev-update-var-dumper",
         "psr/simple-cache": "^1.0|^2.0|^3.0",
         "nette/caching": "^2.5|^3.0",
         "colinodell/json5": "^1.0|^2.0"
@@ -65,5 +66,15 @@
 
     "minimum-stability": "dev",
 
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/asbiin/coollection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/asbiin/ia-collection"
+        }
+    ]
 }
